@@ -1,0 +1,10 @@
+body{
+    background: rgb(238,241,54);
+    background: linear-gradient(90deg, rgba(238,241,54,1) 0%, rgba(36,68,241,1) 26%, rgba(218,8,204,1) 66%, rgba(96,226,255,1) 97%); 
+}
+.btn{
+    margin-top: 25px;
+}
+.container{
+    margin-top: 25px;
+}
