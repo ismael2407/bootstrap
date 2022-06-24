@@ -7,13 +7,13 @@
     <title> pomodoro time online - POMOFOCUS </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="pomodoro.css">
 
-<link rel="stylesheet" href="estilos.css">
+
 </head>
 
 <body>
-    <div class="container W-50">
+    <div class="container W-50 bg-secondary">
         <!-- encabezado -->
         <div class="row mt-3 d-flex justify-content-between aling-items-center border-bottom border-light border-3 ">
 
@@ -58,6 +58,7 @@
         </div>
 
         <div class="row bg-trasnparent mt-5 w-75 mx-auto">
+            <div class="container bg-danger">
             <div class="col">
                 <!-- botones del timer-->
                 <div class="row ">
@@ -88,8 +89,8 @@
                 </div>
 
             </div>
+        </div>
 
-          
 
 
 
@@ -97,13 +98,13 @@
 
 
         </div>
-          <!--time to focus-->
-          <div class="row mt-5">
+        <!--time to focus-->
+        <div class="row mt-5">
             <div class="col text-center text-light">
-            <p>#1</p>
-            <p>Time to focus! </p>
+                <p>#1</p>
+                <p>Time to focus! </p>
             </div>
-            
+
         </div>
 
         <!-- Task-->
@@ -114,28 +115,33 @@
 
             <div class="col d-flex justify-content-end m-2">
                 <div class="dropdown">
-                    <button class="btn btn-salmon dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-                          </svg>
+                    <button class="btn btn-salmon dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                            class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path
+                                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                        </svg>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col w-75">
                 <div class="d-grid gap-2">
                     <button class="btn btn-salmon" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
-                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                        </svg>
                         Add Task</button>
-                  </div>
+                </div>
             </div>
         </div>
 
