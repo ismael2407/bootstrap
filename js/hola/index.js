@@ -33,7 +33,7 @@ function mostrarFondo2(){
     mensaje.classList.add('bg-secondary','text-warning')
     mensaje.classList.remove('bg-dark')
     mensaje.classList.remove('bg-warning')
-    mensaje.classList.remove('text-light')
+    mensaje.classList.remove('text-light','text-danger')
 
 }
 
